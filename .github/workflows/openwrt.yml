@@ -42,7 +42,7 @@ jobs:
           mv ./lede/* ./
       - name: Install Helloword
         run: |
-          echo "src-git helloworld https://github.com/fw876/helloworld" >> ./feeds.conf.default 
+          echo "src-git liuran001_packages https://github.com/liuran001/openwrt-packages" >> ./feeds.conf.default 
       - name: Install OpenClash
         run: |
           mkdir package/luci-app-openclash
